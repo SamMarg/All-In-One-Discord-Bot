@@ -1,4 +1,6 @@
-# Setting up
+#All-In-One-Discord-Bot
+ A discord bot with a bit of everything!
+## Setting up
  To set up the bot, you will need to have created a discord bot. You can do that in the [discord developer portal](https://discord.com/developers/applications). After you create a bot, you need to do some things:
     * Navigate to the bot you just created from [this](https://discord.com/developers/applications) page.
     * From there, look for the "Bot" option on the left navigation menu and click on it
@@ -7,7 +9,7 @@
 ![image](https://github.com/user-attachments/assets/28392327-821b-41b1-a2c0-440b2f8d09d0)
 
  * After doing that, scroll up until you see a "Reset Token" button, then click on it, and copy the token you are provided with. _Do not share this token to ANYONE. If anyone gets this token, they can do ANYTHING they want with your bot, including and not limited to nuking your server, spamming messages in your server/DMs etc_. 
-# Configuring the server
+## Configuring the server
 To use this bot, your Discord Server must have:
    
    * An admin (Most likely you. This person can do anything to the bot)
@@ -19,7 +21,7 @@ To use this bot, your Discord Server must have:
    * A suggestion channel (This is where the bot will send suggestions)
    * A welcome channel (This is where the bot will send "Welcome" messages)
 After creating these, you're good to proceed to the next stage.
-# Configuring the bot
+## Configuring the bot
    * Download [this](https://github.com/SamMarg/All-In-One-Discord-Bot/archive/refs/heads/main.zip) zip and extract it to a folder.
    * Then, go to the folder where you extracted the zip you downloaded. Look for a `config.json` file, and open it with your IDE of choice (You _can_ edit it with Notepad, but if you're not careful, you can mess up the syntax and make it unreadable by the bot.)
    * Fill out the required fields:
@@ -51,7 +53,7 @@ After creating these, you're good to proceed to the next stage.
 "ticketNumber": 1
  ``` 
 
-# Running the bot
+## Running the bot
 To run the bot, you need [NodeJS](https://nodejs.org/en/download) installed.
    * Navigate to the folder where you extracted your zip.
    * On the top navigation bar, type "cmd" and press enter, as shown below
@@ -59,7 +61,7 @@ To run the bot, you need [NodeJS](https://nodejs.org/en/download) installed.
    * In the newly opened CMD window, type `npm i discord.js @discord.js/voice axios yt-search` and press enter
    * After it's finished, type `node main.js` and press enter
    * You should see some startup messages
-# Info
+## Info
    * This code is nowhere near a professional solution. Use it with that in mind. Feedback and reporting bugs are appreciated, though :)
    * It might take a hot second for the slash commands to sync to discord. Give it up to a minute.
    * When the commands have synced, run `/help` in the discord server to see everything the bot can do.
