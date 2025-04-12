@@ -4,7 +4,6 @@
   "debugMode": false,
   "AdminID": "",
   "apodChannelID": "",
-  "//": "Do NOT Touch 'lastInteractionBeforeRestart' ",
   "lastInteractionBeforeRestart": "", 
   "SupportID": "",
   "GuildID": "",
