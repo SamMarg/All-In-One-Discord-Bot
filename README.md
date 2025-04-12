@@ -1,11 +1,12 @@
 # All-In-One-Discord-Bot
  A discord bot with a bit of everything:
-    * Music
-    * Tickets
-    * Suggestions
-    * Birthdays
-    * Welcome messages
-    * And so much more!
+ 
+    - Music
+    - Tickets
+    - Suggestions
+    - Birthdays
+    - Welcome messages
+    - And so much more!
 
 ## Setting up
  To set up the bot, you will need to have created a discord bot. You can do that in the [discord developer portal](https://discord.com/developers/applications). After you create a bot, you need to do some things:
