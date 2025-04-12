@@ -38,7 +38,7 @@ After creating these, you're good to proceed to the next stage.
       * (string) "BirthdayChannel" -> This is the Birthday channel's ID. Simply paste it in.
       * (string) "TranscriptChannel" -> This is the transcripts' channel ID. Simply paste it in.
       * (string) "suggestionChannel" -> This is the suggestions' channel ID. Simply paste it in.
-      * (integer) "suggestionNumber" -> **Do not touch this.** Leave it as is (default is 1)
+      * (integer) "suggestionNumber" -> **Do not touch this.** Leave it as is (default is 0)
       * (string) "joinChannelID" -> This is the welcome channel's ID. Simply paste it in.
 
          **Attention:** 
