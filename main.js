@@ -1145,7 +1145,9 @@ async function sendRestartedMessage() {
   }
   
   bot.on('ready', async () => {
-
+    console.log('///////////')
+    console.log('v0.1-BETA')
+    console.log('///////////')
     console.log(`Logged in as ${bot.user.tag}`);
     await bot.guilds.fetch();
     setInterval(await checkBirthdays, 24 * 60 * 60 * 1000);
