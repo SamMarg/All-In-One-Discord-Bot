@@ -43,7 +43,14 @@ After creating these, you're good to proceed to the next stage.
            * (string) -> `"000000000000000"`, `"hello"`
            * (boolean) -> Can only be `true` or `false`. `"true"` is a string, while `true` is a boolean.
            * (integer) -> `0000000000000`, `1986872`, `1234`. This differs from a number, since numbers also include decimals (`1.323`, `π`), while integers cannot. `"1234"` is a string, while `1234` is an integer.
-          
+
+         **Example:**
+```
+"token": "abc123def456",
+"debugMode": false,
+"ticketNumber": 1
+ ``` 
+
 # Running the bot
 To run the bot, you need [NodeJS](https://nodejs.org/en/download) installed.
    * Navigate to the folder where you extracted your zip.
