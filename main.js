@@ -8,7 +8,6 @@ const { spawn } = require('child_process');
 const ytSearch = require('yt-search');
 const { AudioPlayer, createAudioPlayer, createAudioResource, AudioPlayerStatus } = require('@discordjs/voice');
 const { joinVoiceChannel } = require('@discordjs/voice');
-const mp3Duration = require('mp3-duration');
 const axios = require('axios')
 
 const ytDlpPath = path.join(__dirname, 'assets', 'yt-dlp.exe');
