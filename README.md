@@ -1,4 +1,4 @@
-#All-In-One-Discord-Bot
+# All-In-One-Discord-Bot
  A discord bot with a bit of everything!
 ## Setting up
  To set up the bot, you will need to have created a discord bot. You can do that in the [discord developer portal](https://discord.com/developers/applications). After you create a bot, you need to do some things:
