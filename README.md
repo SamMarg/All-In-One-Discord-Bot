@@ -38,26 +38,26 @@ Once these channels and roles are set up, you're ready to proceed to the next st
    *While you can edit it with Notepad, it’s easier to avoid syntax issues with an IDE.*
 3. Fill out the required fields in `config.json`:
 
-   - `"token"`: Paste the bot token you copied earlier.
-   - `"prefix"`: The prefix for bot commands. Default is `!!`, but you can change it.
-   - `"debugMode"`: Set to `false` unless you need to receive DM updates about commands.
-   - `"AdminID"`: Paste your Discord user ID.
-   - `"apodChannelID"`: Paste the APOD channel’s ID.
-   - `"lastInteractionBeforeRestart"`: **Do not modify**. Leave it blank.
-   - `"SupportID"`: Paste the support role’s ID.
-   - `"GuildID"`: Paste the server’s ID.
-   - `"SupportCategory"`: Paste the support category’s ID.
-   - `"ticketNumber"`: **Do not modify**. Leave it as `0`.
-   - `"BirthdayChannel"`: Paste the birthday channel’s ID.
-   - `"TranscriptChannel"`: Paste the transcript channel’s ID.
-   - `"suggestionChannel"`: Paste the suggestion channel’s ID.
-   - `"suggestionNumber"`: **Do not modify**. Leave it as `0`.
-   - `"joinChannelID"`: Paste the welcome channel’s ID.
+   - (string) `"token"`: Paste the bot token you copied earlier.
+   - (string) `"prefix"`: The prefix for bot commands. Default is `!!`, but you can change it.
+   - (boolean) `"debugMode"`: Set to `false` unless you need to receive DM updates about commands.
+   - (string) `"AdminID"`: Paste your Discord user ID.
+   - (string) `"apodChannelID"`: Paste the APOD channel’s ID.
+   - (string) `"lastInteractionBeforeRestart"`: **Do not modify**. Leave it blank.
+   - (string) `"SupportID"`: Paste the support role’s ID.
+   - (string) `"GuildID"`: Paste the server’s ID.
+   - (string) `"SupportCategory"`: Paste the support category’s ID.
+   - (integer) `"ticketNumber"`: **Do not modify**. Leave it as `0`.
+   - (string) `"BirthdayChannel"`: Paste the birthday channel’s ID.
+   - (string) `"TranscriptChannel"`: Paste the transcript channel’s ID.
+   - (string) `"suggestionChannel"`: Paste the suggestion channel’s ID.
+   - (integer) `"suggestionNumber"`: **Do not modify**. Leave it as `0`.
+   - (string) `"joinChannelID"`: Paste the welcome channel’s ID.
 
    **Important:**
    - **(string)**: `"000000000000000"`, `"hello"`
    - **(boolean)**: Can only be `true` or `false`. `"true"` is a string, while `true` is a boolean.
-   - **(integer)**: `1234`, `1986872` (integers cannot have decimals).
+   - **(integer)**: `1234`, `1986872`. This differs from a number, since numbers can have decimal points (`3.1415`, `14.04`), while integers cannot.
 
    **Example:**
    ```json
