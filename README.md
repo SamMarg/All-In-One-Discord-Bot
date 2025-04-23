@@ -63,7 +63,7 @@ Once these channels and roles are set up, you're ready to proceed to the next st
    ```json
    "token": "abc123def456",
    "debugMode": false,
-   "ticketNumber": 1
+   "ticketNumber": 0
    ```
 
 ## Running the Bot
