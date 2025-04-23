@@ -72,7 +72,9 @@ To run the bot, you need to have [Node.js](https://nodejs.org/en/download) insta
 
 1. Navigate to the folder where you extracted the zip.
 2. In the folder, click on the address bar at the top, type `cmd`, and press Enter. This will open the Command Prompt.
+
    ![image](https://github.com/user-attachments/assets/4254ba9e-5c83-42b3-b649-c3d53bd73fd3)
+
 3. In the command prompt, type:
    ```
    npm i discord.js @discord.js/voice axios yt-search
